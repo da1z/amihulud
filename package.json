@@ -1,6 +1,6 @@
 {
   "name": "amihulud",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if your GitHub repos were affected by the Sha1hulud supply chain attack",
   "type": "module",
   "bin": {
@@ -20,6 +20,14 @@
     "supply-chain"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/da1z/amihulud"
+  },
+  "homepage": "https://github.com/da1z/amihulud#readme",
+  "bugs": {
+    "url": "https://github.com/da1z/amihulud/issues"
+  },
   "devDependencies": {
     "@types/node": "^24.10.1",
     "typescript": "^5.9.3"
