@@ -1,0 +1,27 @@
+{
+  "name": "amihulud",
+  "version": "0.0.1",
+  "description": "Check if your GitHub repos were affected by the Sha1hulud supply chain attack",
+  "type": "module",
+  "bin": {
+    "amihulud": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "security",
+    "github",
+    "cli",
+    "sha1hulud",
+    "supply-chain"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
